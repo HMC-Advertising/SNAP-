@@ -1,0 +1,18 @@
+@mixin trans(){
+   -webkit-transition:  0.5s ease;
+	  -moz-transition:  0.5s ease;
+	    -o-transition:  0.5s ease;
+	   -ms-transition:  0.5s ease;
+	       transition:  0.5s ease;
+}
+
+@mixin rotate(){
+	 -webkit-transform: rotate(360deg);
+	    -moz-transform: rotate(360deg);
+             transform: rotate(360deg);
+}
+@mixin border-radius($r){
+	border-radius: $r;
+	-moz-border-radius: $r;
+	-webkit-border-radius: $r;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sap",
+  "version": "1.0.0",
+  "authors": [
+    "Amanda Iaria <amanda@wearehmc.com>"
+  ],
+  "description": "",
+  "main": "index.php",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "wordpress",
+    "theme"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

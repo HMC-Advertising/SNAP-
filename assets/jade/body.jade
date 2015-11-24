@@ -1,0 +1,48 @@
+section(id="main" class="row")
+	div(class="col-lg-12")
+		div(class="container")
+			h2(class="click") Click on any of the five sections below and you're on your way. 
+			section(id="content" class="st-accordion cc")
+				ul
+					li(class="start")
+						a(href="#" class="st-arrow" id="start")
+							h1 Start 
+								span(class="plus")
+									i(class="glyphicon glyphicon-plus")
+						div(class="st-content")
+							- include("assets/php/includes/divider/start.php");
+					li(class="shop")	
+						a(href="#" class="st-arrow" id="shop")
+							h1 Shop 
+								span(class="plus")
+									i(class="glyphicon glyphicon-plus")
+						div(class="st-content")
+							- include("assets/php/includes/divider/shop.php");
+					li(class="store")	
+						a(href="#" class="st-arrow" id="store")
+							h1 Store
+								span(class="plus")
+									i(class="glyphicon glyphicon-plus")
+						div(class="st-content")
+							- include("assets/php/includes/divider/store.php");
+					li(class="prep")	
+						a(href="#" class="st-arrow" id="prep")
+							h1 Prep 
+								span(class="plus")
+									i(class="glyphicon glyphicon-plus")
+						div(class="st-content")
+								- include("assets/php/includes/divider/prep.php");
+					li(class="eat")
+						a(href="#" class="st-arrow" id="eat")
+							h1 Eat 
+								span(class="plus")
+									i(class="glyphicon glyphicon-plus")
+						div(class="st-content")
+							- include("assets/php/includes/divider/eat.php");
+					li(class="resources")
+						a(href="#" class="st-arrow" id="resources")
+							h1 Resources
+								span(class="plus")
+									i(class="glyphicon glyphicon-plus")
+						div(class="st-content")
+							- include("assets/php/includes/divider/resources.php");

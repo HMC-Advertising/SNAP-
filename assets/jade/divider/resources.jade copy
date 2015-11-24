@@ -1,0 +1,88 @@
+article(class="intStuff resources")  
+	div(class="panel-group" id="accordion" role="tablist" aria-multiselectable="true")
+		div(class="panel panel-default")
+			div(class="panel-heading" role="tab" id="headingOne")
+				h4(class="panel-title")
+					a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed") Tips, Information &amp; Recipes <span class="more">More</span>
+
+			div(id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne")
+				div(class="panel-body")
+					ul(class="col-lg-6") 
+						li
+							a(href="http://healthvermont.gov/mymoment/" target="_blank") Healthy Eating | Vermont Department of Health 
+						li	
+							a(href="http://www.fruitsandveggiesmorematters.org/" target="_blank") Fruits &amp; Veggies More Matters
+							ul
+								li
+									a(href="http://www.fruitsandveggiesmorematters.org/fruit-vegetable-nutrition-database" target="_blank") Fruit &amp; Veggie Nutrition Database
+								li	
+									a(href="http://www.fruitsandveggiesmorematters.org/healthy-meal-planning-guide" target="_blank") Healthy Meal Planning
+								li	
+									a(href="http://www.fruitsandveggiesmorematters.org/main-recipes" target="_blank") Fruit &amp; Veggie Recipes
+						li			
+							a(href="http://www.choosemyplate.gov/" target="_blank") ChooseMyPlate.gov 
+							ul
+								li
+									a(href="http://www.choosemyplate.gov/ten-tips" target="_blank") 10 Tips Nutrition Education Series
+								li	
+									a(href="http://www.choosemyplate.gov/healthy-eating-on-budget.html" target="_blank") Healthy Eating on a Budget
+						li				
+							a(href="https://www.foodhero.org/" target="_blank") Food Hero 
+					ul(class="col-lg-6") 
+						li
+							a(href="http://jsyfruitveggies.org/" target="_blank") Just Say Yes to Fruits &amp; Veggies 
+						li	
+							a(href="http://www.chopchopmag.org/" target="_blank") ChopChop
+						li
+							a(href="https://www.uvm.edu/extension/food/efnep/" target="_blank") The University of Vermont (UVM) Extension's Expanded Food and Nutritional Education Program (EFNEP)	
+							ul
+								li
+									a(href="https://www.uvm.edu/extension/food/efnep/?Page=programs.html" target="_blank") Free Classes, Workshops, and Home Visits
+								li	
+									a(href="https://www.uvm.edu/extension/food/efnep/?Page=resources.html" target="_blank") Recipes &amp; Recources
+								li	
+									a(href="http://www.uvm.edu/extension/food/efnep/?Page=contact.html" target="_blank") Nutrition Educators
+							
+						li
+							a(href="http://www.sustainabletable.org/seasonalfoodguide/" target="_blank") Seasonal Food Guide 
+						
+
+		div(class="panel panel-default")
+			div(class="panel-heading" role="tab" id="headingTwo")
+				h4(class="panel-title")
+					a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="collapsed") Programs That Boost Family Food Budgets <span class="more">More</span>
+
+			div(id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo")
+				div(class="panel-body") 
+					ul(class="col-lg-6") 
+						li
+							a(href="http://dcf.vermont.gov/esd/" target="_blank") 3SquaresVT
+						li
+							a(href="http://dcf.vermont.gov/esd" target="_blank") State of Vermont's Economic Services Division
+						li
+							a(href="http://healthvermont.gov/wic/" target="_blank") WIC in Vermont
+						li
+							a(href="http://dcf.vermont.gov/esd/farm_to_family" target="_blank")	Farm To Family Farmers' Market Coupons 			
+						
+					ul(class="col-lg-6") 
+						li
+							a(href="http://www.vermontfoodhelp.com/where-can-i-use-3squaresvt/farmers-markets" target="_blank") Crop Cash Farmers' Market Coupons for 3SquaresVT Participants 
+						li
+							a(href="https://www.hungerfreevt.org/school-meals-applying-and-participating-2/enrolling-in-school-meals" target="_blank") Hunger Free Vermont's School Meals Program 
+						li
+							a(href="https://www.hungerfreevt.org/summer-meals-sites" target="_blank") Summer Meals program 
+						
+
+		div(class="panel panel-default")
+			div(class="panel-heading" role="tab" id="headingFour")
+				h4(class="panel-title")
+					a(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour" class="collapsed") Shopping at Vermont's Farmers' Markets <span class="more">More</span>
+
+			div(id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour")
+				div(class="panel-body") 
+					ul(class="col-lg-12") 
+						li
+							a(href="http://nofavt.org/farmers-markets" target="_blank") Northeast Organic Farming Association's (NOFA-Vermont) List of Farmers' Markets 
+						li	
+							a(href="http://vermontfoodhelp.com/where-can-i-use-3squaresvt/farmers-markets" target="_blank") Farmers Markets &amp; 3SquaresVT 
+							
