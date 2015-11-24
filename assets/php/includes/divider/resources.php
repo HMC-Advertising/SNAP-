@@ -48,7 +48,6 @@
           <ul class="col-lg-6"> 
             <li><a href="http://dcf.vermont.gov/esd/3SquaresVT" target="_blank">3SquaresVT (Vermont Economic Services Division)</a></li>
             <li><a href="http://vermontfoodhelp.com" target="_blank">3SquaresVT	(Hunger Free Vermont)</a></li>
-            <li><a href="http://dcf.vermont.gov/esd/farm_to_family" target="_blank">Vermont Farm to Family Program	</a></li>
             <li><a href="http://healthvermont.gov/wic/" target="_blank">WIC in Vermont</a></li>
           </ul>
         </div>

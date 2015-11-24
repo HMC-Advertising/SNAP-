@@ -147,7 +147,7 @@ module.exports = function (grunt){
 		rsync: {
     		options: {
         		args: ["--verbose"],
-        		exclude: [".git*","*.scss","node_modules",".bowerrc", "bower.json", "livereload.js", "Gruntfile.js", ".sass-cache", 'src', 'Main', 'bootstrap/grunt','bootstrap/js','bootstrap/less','bootstrap/fonts' ,'pro', 'build', 'sass/_bootstrapSass', 'sass/_partials' ,'sass/style.scss', 'sass/download-monitor.html.zip' ,'sass/img.zip' ,'package.js', 'LICENSE' ,'package.json', 'js/script.js', 'designs', '.DS_Store','assets/jade', 'config.rb', 'js/coffee'],
+        		exclude: [".git*","*.scss","node_modules",".bowerrc", "bower.json", "livereload.js", "Gruntfile.js", ".sass-cache", 'src', 'Main', 'bootstrap/grunt','bootstrap/js','bootstrap/less','bootstrap/fonts' ,'pro', 'build', 'sass/_bootstrapSass', 'sass/_partials' ,'sass/style.scss', 'sass/download-monitor.html.zip' ,'sass/img.zip' ,'package.js', 'LICENSE' ,'package.json', 'js/script.js', 'designs', '.DS_Store','assets/jade', 'config.rb', 'npm-debug.log', 'js/coffee'],
         		recursive: true
     		},
     		dist: {
